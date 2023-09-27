@@ -14,4 +14,3 @@ export default defineConfig({
     outDir: join(process.cwd(), 'dist'),
   },
 });
-//vite.config.js

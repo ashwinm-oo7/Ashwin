@@ -1,8 +1,4 @@
-## **KnowledgeHut upGrad | Artify**
-
-
-**Welcome to my Art Gallery project! This project displays a collection of art images using the Unsplash API.**
-
+## **KnowledgeHut upGrad | JavaScript Starter Template 2.0**
 
 This is the new version of the create-js-app that incorporates the Vite development tool instead of the Parcel bundler as used in v1.0 of this utility. Vite (https://vitejs.dev) brings tremendous performance boost to the development environment.
 
@@ -17,63 +13,8 @@ A sample application has been made available in the src folder which you can edi
 
 - ```src/public```: This folder contains the MSW utility file (mockServiceWorker.js) which should not be edited/removed. Any files you place in this folder can be directly accessed in your HTML document. Use this for placing static assets such as images. 
 
-## Features
-
-- Display art gallery images by default.
-- Filter images by art style, such as Modern Art, Classic Art, Sculptures, and more.
-- Search for specific art or artists.
-- Like your favorite images and see them in the "Favorites" section.
-
-## Getting Started
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in a web browser to view the project.
-
-## Usage
-
-- Click on art style buttons to filter images by category.
-- Use the search bar to find specific art or artists.
-- Click on an image to view artist details and add it to your favorites.
-
-
-### Installation
-
-1. Clone this repository to your local machine:
-2. ```bash
-   git clone https://github.com/your-username/art-gallery.git
-3. Using the Unsplash API:
-   
-4. Visit the [Unsplash Developer](https://unsplash.com/developers) portal.
-5. Create a developer account or log in if you already have one.
-6. Create a new application to generate an API key.
-7. Once you have your API key, replace `'YOUR_ACCESS_KEY'` with your actual API key in the project code.
-    ```javascript
-    const unsplash = createApi({
-      accessKey: 'YOUR_ACCESS_KEY', // Replace with your API key
-    });
-
-## Contributing
-
-Contributions are welcome! If you have any ideas or improvements, please open an issue or create a pull request.
-
-
-
 **Instructions**
 
 - **Development** : Run `npm run dev` - This will start the development server and open the app in the default browser. You can then work with the files in the src/ folder and can see instant updates in the browser.
   
 - **Production Build**: Run `npm run build` - This will produce a build edition that you can then deploy on the cloud/host on a static file service such as GitHub pages or surge.sh.  We recommend trying https://surge.sh for deploying static apps. Please note that the build also copies down the mockServiceWorker.js file into the dist folder. You can safely remove this file from the dist folder before deploying your app.
-
-    #Install the project dependencies:#
-    ```terminal
-    npm install
-  ```  
-  #Run the Application:#
-  ```terminal
-  npm run dev
-  ```
-  #Build the Application#
-  ```
-  npm run build
-  ```
-  
